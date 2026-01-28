@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
     libasound2 \
     libxt6 \
     libgbm1 \
-    libuDEV1 \
+    libudev1 \
     xvfb \
     && rm -rf /var/lib/apt/lists/*
 
